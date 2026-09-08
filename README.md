@@ -14,4 +14,4 @@ Then visit http://localhost:5500.
 
 ## Notes
 
-The page is a self-contained adaptation. Bootstrap and Bootstrap Icons are loaded from jsDelivr, and the editorial photography is sourced from Unsplash. The W3Layouts reference is credited in the footer.
+The page is a self-contained adaptation. Bootstrap and Bootstrap Icons are loaded from jsDelivr, and the editorial photography is sourced from Unsplash. 
