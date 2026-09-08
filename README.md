@@ -1,6 +1,6 @@
 # faithydesigns
 
-A responsive corporate custom-products website for faithydesigns, built in a Bootstrap layout inspired by W3Layouts' [FinAgenc corporate business template](https://w3layouts.com/template/finagenc-a-corporate-business-website-template/).
+A responsive corporate custom-products website for faithydesigns.
 
 ## Run locally
 
