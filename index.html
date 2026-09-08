@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="faithydesigns creates custom clothing, hoodies, mugs, and phone cases for brands, teams, and special moments.">
+  <title>faithydesigns | Custom products, made yours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement-bar">
+    <div class="container d-flex justify-content-between align-items-center gap-3">
+      <span><i class="bi bi-stars me-2"></i>New season, new merch: make your everyday essentials unmistakably yours.</span>
+      <a href="#contact">Get the next issue <i class="bi bi-arrow-up-right ms-1"></i></a>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg py-3" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#top" aria-label="faithydesigns home"><span class="brand-mark">F</span><span>faithydesigns<span class="brand-dot">.</span></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+          <li class="nav-item"><a class="nav-link" href="#work">What we do</a></li>
+          <li class="nav-item"><a class="nav-link" href="#approach">Our approach</a></li>
+          <li class="nav-item"><a class="nav-link" href="#insights">Insights</a></li>
+          <li class="nav-item auth-nav-item"><button class="nav-link sign-in-button" type="button" data-bs-toggle="modal" data-bs-target="#authModal"><i class="bi bi-person-circle me-1"></i> Sign in</button><div class="account-menu" hidden><button class="account-trigger" type="button"><span class="account-avatar">F</span><span class="account-name">Account</span><i class="bi bi-chevron-down"></i></button><div class="account-panel"><strong>Welcome back</strong><a href="#work"><i class="bi bi-grid me-2"></i>My designs</a><a href="#contact"><i class="bi bi-chat-left-text me-2"></i>Request an order</a><button class="sign-out-button" type="button"><i class="bi bi-box-arrow-right me-2"></i>Sign out</button></div></div></li>
+          <li class="nav-item"><a class="nav-link nav-cta" href="#contact">Start a conversation <i class="bi bi-arrow-up-right ms-1"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero-section section-space">
+      <div class="container">
+        <div class="row align-items-end g-5">
+          <div class="col-lg-7 reveal">
+            <p class="eyebrow"><span></span> Custom products for brands with character</p>
+            <h1>Put your <em>signature</em> on everything.</h1>
+            <p class="hero-copy">faithydesigns turns your ideas into high-quality custom clothing, hoodies, mugs, and phone cases made to be seen, shared, and remembered.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-primary btn-lg" href="#contact">Talk to our team <i class="bi bi-arrow-up-right ms-2"></i></a>
+              <a class="text-link align-self-center" href="#work">Explore our work <i class="bi bi-arrow-down ms-1"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-5 reveal delay-1">
+            <div class="hero-note">
+              <div class="note-top"><span>DESIGN DROP / 04</span><i class="bi bi-arrow-up-right"></i></div>
+              <p>“Your merch should feel like an extension of your brand, not an afterthought.”</p>
+              <div class="note-author"><span class="avatar">FD</span><span><strong>Faithy Designs</strong><small>Custom product studio</small></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-meta row g-4 mt-5 reveal delay-2">
+          <div class="col-sm-4"><span>01</span><strong>Made to order</strong><small>Your idea, your way</small></div>
+          <div class="col-sm-4"><span>02</span><strong>Quality that lasts</strong><small>Materials worth keeping</small></div>
+          <div class="col-sm-4"><span>03</span><strong>Ready for your world</strong><small>Small runs or big drops</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work-section section-space">
+      <div class="container">
+        <div class="section-heading row align-items-end g-4 reveal"><div class="col-lg-7"><p class="eyebrow"><span></span> What we make</p><h2>Everyday products, made personal.</h2></div><div class="col-lg-4 ms-auto"><p>From one-of-a-kind gifts to full team collections, we bring your visual identity to the products people actually use.</p></div></div>
+        <div class="services-grid mt-5">
+          <article class="service-card service-feature product-card reveal"><div class="service-number">01</div><button class="service-icon product-toggle" type="button" aria-expanded="false" aria-controls="clothing-preview" aria-label="Show custom clothing image"><i class="bi bi-stars"></i></button><h3>Custom clothing</h3><p>Bring your logo, artwork, or message to premium tees and apparel made for your people.</p><div class="product-preview" id="clothing-preview"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Custom blank t-shirts ready for printing"><span>Custom tees &amp; apparel</span></div><a href="#contact" class="service-link" aria-label="Learn about custom clothing">Shop the collection <i class="bi bi-arrow-up-right"></i></a></article>
+          <article class="service-card product-card reveal delay-1"><div class="service-number">02</div><button class="service-icon product-toggle" type="button" aria-expanded="false" aria-controls="hoodie-preview" aria-label="Show hoodie and teamwear image"><i class="bi bi-handbag"></i></button><h3>Hoodies &amp; teamwear</h3><p>Comfort-first hoodies and coordinated pieces for drops, teams, events, and everyday uniforms.</p><div class="product-preview" id="hoodie-preview"><img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Folded custom hoodie and teamwear"><span>Hoodies &amp; team collections</span></div><a href="#contact" class="service-link" aria-label="Learn about custom hoodies and teamwear">Explore hoodies <i class="bi bi-arrow-up-right"></i></a></article>
+          <article class="service-card product-card reveal delay-2"><div class="service-number">03</div><button class="service-icon product-toggle" type="button" aria-expanded="false" aria-controls="accessories-preview" aria-label="Show mug and phone case images"><i class="bi bi-phone"></i></button><h3>Mugs &amp; phone cases</h3><p>Small details with a big personality, customized for gifting, office culture, or your next launch.</p><div class="product-preview" id="accessories-preview"><img src="https://images.unsplash.com/photo-1572119865084-43c285814d63?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Custom printed mug and phone case products"><span>Mugs, cases &amp; gifts</span></div><a href="#contact" class="service-link" aria-label="Learn about custom mugs and phone cases">See more products <i class="bi bi-arrow-up-right"></i></a></article>
+        </div>
+        <div class="design-gallery reveal">
+          <div class="gallery-heading"><p class="eyebrow"><span></span> Recent work</p><h3>A few things we have made personal.</h3><a class="text-link" href="#contact">Create yours <i class="bi bi-arrow-up-right ms-1"></i></a></div>
+          <div class="gallery-grid"><figure class="gallery-item gallery-tall"><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Styled custom graphic t-shirt design"><figcaption><strong>Studio tee</strong><span>Custom apparel</span></figcaption></figure><figure class="gallery-item"><img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Custom embroidered hoodie design"><figcaption><strong>Club hoodie</strong><span>Teamwear</span></figcaption></figure><figure class="gallery-item"><img src="https://images.unsplash.com/photo-1572119865084-43c285814d63?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Minimal custom coffee mug design"><figcaption><strong>Daily mug</strong><span>Gifting</span></figcaption></figure><figure class="gallery-item"><img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Modern phone case design displayed with accessories"><figcaption><strong>Signature case</strong><span>Accessories</span></figcaption></figure></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="business-section section-space">
+      <div class="container">
+        <div class="section-heading row align-items-end g-4 reveal"><div class="col-lg-7"><p class="eyebrow"><span></span> Built for your brief</p><h2>From one special piece to a full brand drop.</h2></div><div class="col-lg-4 ms-auto"><p>Whether you are launching a business, celebrating a milestone, or outfitting a team, we make the process feel clear from idea to delivery.</p></div></div>
+        <div class="business-grid mt-5">
+          <div class="business-item reveal"><span class="business-icon"><i class="bi bi-building"></i></span><h3>Business &amp; startups</h3><p>Branded apparel and welcome kits that make your team feel part of something from day one.</p></div>
+          <div class="business-item reveal delay-1"><span class="business-icon"><i class="bi bi-calendar-event"></i></span><h3>Events &amp; celebrations</h3><p>Memorable keepsakes for birthdays, weddings, launches, clubs, and every big moment in between.</p></div>
+          <div class="business-item reveal delay-2"><span class="business-icon"><i class="bi bi-gift"></i></span><h3>Gifts that feel personal</h3><p>Thoughtful custom pieces designed around the person, the occasion, and the story behind it.</p></div>
+        </div>
+        <div class="process-strip reveal"><div class="process-label"><span>HOW IT WORKS</span><strong>Three simple steps</strong></div><div class="process-step"><span>01</span><p><strong>Share your idea</strong><small>Tell us your product, artwork, quantity, and date.</small></p></div><div class="process-step"><span>02</span><p><strong>Approve the look</strong><small>We confirm the design, colors, placement, and quote.</small></p></div><div class="process-step"><span>03</span><p><strong>Receive your order</strong><small>We produce, quality-check, and prepare it for delivery.</small></p></div></div>
+      </div>
+    </section>
+
+    <section id="approach" class="approach-section section-space">
+      <div class="container"><div class="row g-5 align-items-center"><div class="col-lg-5 reveal"><div class="image-frame"><img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1000&q=85" alt="Folded custom clothing ready to be packaged"><span class="image-stamp">F<span>/</span>D</span></div></div><div class="col-lg-6 offset-lg-1 reveal delay-1"><p class="eyebrow"><span></span> Why faithydesigns</p><h2>Thoughtful design. Tangible quality.</h2><p class="large-copy">We make custom products that feel considered from the first sketch to the final package. You bring the idea; we bring the craft, care, and production know-how.</p><div class="approach-list"><div><span>01</span><p><strong>Start with your story.</strong> We learn what your brand, event, or gift needs to say.</p></div><div><span>02</span><p><strong>Design for real life.</strong> Color, placement, and materials are chosen to look good and hold up.</p></div><div><span>03</span><p><strong>Deliver with care.</strong> Every order is checked, packed, and ready to make an impression.</p></div></div></div></div></div>
+    </section>
+
+    <section id="insights" class="insights-section section-space"><div class="container"><div class="section-heading d-flex justify-content-between align-items-end gap-4 reveal"><div><p class="eyebrow"><span></span> Design journal</p><h2>Ideas worth wearing, gifting, and sharing.</h2></div><a class="text-link d-none d-md-block" href="#contact">Start an order <i class="bi bi-arrow-up-right ms-1"></i></a></div><div class="row g-4 mt-4"><article class="col-md-4 reveal"><a href="#contact" class="insight-card"><div class="insight-image image-one"></div><div class="insight-body"><small>BRAND MERCH · 6 MIN READ</small><h3>How to build a merch drop people actually want</h3><span>Read note <i class="bi bi-arrow-up-right"></i></span></div></a></article><article class="col-md-4 reveal delay-1"><a href="#contact" class="insight-card"><div class="insight-image image-two"></div><div class="insight-body"><small>GIFTING · 8 MIN READ</small><h3>The art of making a thoughtful custom gift</h3><span>Read note <i class="bi bi-arrow-up-right"></i></span></div></a></article><article class="col-md-4 reveal delay-2"><a href="#contact" class="insight-card"><div class="insight-image image-three"></div><div class="insight-body"><small>SMALL BUSINESS · 5 MIN READ</small><h3>Four details that make branded products feel premium</h3><span>Read note <i class="bi bi-arrow-up-right"></i></span></div></a></article></div></div></section>
+
+    <section id="contact" class="contact-section section-space"><div class="container"><div class="contact-panel row g-0 reveal"><div class="col-lg-7 contact-copy"><p class="eyebrow"><span></span> Ready to create?</p><h2>Let’s make something people keep.</h2><p>Tell us what you have in mind, how many you need, and when you need it. We will help you choose the right product and bring the design to life.</p><a class="btn btn-light btn-lg" href="mailto:hello@faithydesigns.com">hello@faithydesigns.com <i class="bi bi-arrow-up-right ms-2"></i></a></div><div class="col-lg-5 contact-aside"><p>Prefer a quick hello?</p><a href="tel:+12125550184" class="phone-link">+234 9059201494</a><div class="contact-rule"></div><small>Custom orders · Team drops · Personal gifts</small><div class="contact-details"><strong>When you reach out, include:</strong><span><i class="bi bi-check2"></i> Product and preferred quantity</span><span><i class="bi bi-check2"></i> Artwork or a short description</span><span><i class="bi bi-check2"></i> Your deadline and delivery city</span></div></div></div></div></section>
+  </main>
+
+  <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"><div class="modal-content auth-modal-content"><div class="modal-header"><div><p class="eyebrow mb-2"><span></span> Your faithydesigns account</p><h2 id="authModalTitle">Bring your ideas with you.</h2></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="auth-tabs" role="tablist"><button class="auth-tab active" type="button" role="tab" aria-selected="true" data-auth-tab="login">Log in</button><button class="auth-tab" type="button" role="tab" aria-selected="false" data-auth-tab="register">Create account</button></div><form id="loginForm" class="auth-form"><label for="loginEmail">Email address</label><input id="loginEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><label for="loginPassword">Password</label><input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" minlength="6" required><div class="auth-form-row"><label class="remember-label"><input type="checkbox"> Remember me</label><a href="mailto:hello@faithydesigns.com?subject=Reset%20my%20password">Forgot password?</a></div><button class="btn btn-primary auth-submit" type="submit">Log in <i class="bi bi-arrow-up-right ms-2"></i></button><p class="auth-message" aria-live="polite"></p></form><form id="registerForm" class="auth-form" hidden><label for="registerName">Your name</label><input id="registerName" name="name" type="text" autocomplete="name" placeholder="Faithy Designs" required><label for="registerEmail">Email address</label><input id="registerEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><label for="registerPassword">Create a password</label><input id="registerPassword" name="password" type="password" autocomplete="new-password" placeholder="At least 6 characters" minlength="6" required><button class="btn btn-primary auth-submit" type="submit">Create my account <i class="bi bi-arrow-up-right ms-2"></i></button><p class="auth-message" aria-live="polite"></p></form><small class="auth-note"><i class="bi bi-shield-check me-1"></i> This demo keeps your session on this device. Connect a backend before using it for real customer accounts.</small></div></div></div>
+  </div>
+
+  <footer class="footer"><div class="container d-flex flex-wrap justify-content-between align-items-center gap-3"><a class="navbar-brand" href="#top"><span class="brand-mark">F</span><span>faithydesigns<span class="brand-dot">.</span></span></a><p>© 2026 faithydesigns. All rights reserved.</p><div class="footer-links"><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">Privacy</a></div></div><div class="container template-credit"><small>Built with a Bootstrap structure inspired by the <a href="https://w3layouts.com/template/finagenc-a-corporate-business-website-template/" target="_blank" rel="noreferrer">FinAgenc corporate template from W3Layouts</a>.</small></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
